@@ -1,0 +1,6 @@
+{
+  "name": "TTD Booking Speed Practice Simulator",
+  "description": "An independent offline practice simulator inspired by the Tirumala Tirupati Devasthanams (TTD) online booking portal for training booking speed, form accuracy, and quota-rush readiness.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

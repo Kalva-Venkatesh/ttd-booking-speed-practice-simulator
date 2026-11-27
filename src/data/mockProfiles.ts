@@ -33,7 +33,7 @@ export const DIFFICULTY_PRESETS: Record<
     label: 'Easy',
     seconds: 300,
     timeDisplay: '5 Minutes',
-    description: 'Generous window to learn every form field, calendar click, and CAPTCHA step.',
+    description: 'Generous window to learn every form field and calendar click.',
     recommendedScenario: 'normal',
   },
   medium: {
@@ -157,7 +157,6 @@ export const DEFAULT_SETTINGS: SimulatorSettings = {
   availabilityScenario: 'high_rush',
   ticketDrainSpeed: 'moderate',
   randomFailureRate: 8,
-  enableOtpChallenge: true,
   categoryLimits: {
     angapradakshinam: { maxTicketsPerBooking: 2, initialInventoryPerSlot: 16 },
     darshan_300: { maxTicketsPerBooking: 6, initialInventoryPerSlot: 48 },

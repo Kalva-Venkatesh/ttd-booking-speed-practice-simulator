@@ -120,7 +120,6 @@ export interface SimulatorSettings {
   availabilityScenario: AvailabilityScenario;
   ticketDrainSpeed: TicketDrainSpeed;
   randomFailureRate: number; // 0 to 35 (%)
-  enableOtpChallenge: boolean;
   categoryLimits: Record<BookingCategoryId, CategoryLimitConfig>;
 }
 

@@ -341,10 +341,6 @@ export const SpeedPracticeHub: React.FC<SpeedPracticeHubProps> = ({
               Live ticket depletion:{' '}
               <strong className="text-slate-900 capitalize">
                 {settings.ticketDrainSpeed}
-              </strong>{' '}
-              · OTP verification:{' '}
-              <strong className="text-slate-900">
-                {settings.enableOtpChallenge ? 'Enabled' : 'Disabled'}
               </strong>
             </div>
             <button

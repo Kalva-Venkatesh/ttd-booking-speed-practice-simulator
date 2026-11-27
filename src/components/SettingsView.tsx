@@ -272,7 +272,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
             Realism &amp; Pressure Controls
           </h2>
           <p className="text-xs text-slate-600 mt-0.5">
-            Fine-tune how quickly tickets deplete during practice, random failure rates, and OTP challenge enforcement.
+            Fine-tune how quickly tickets deplete during practice and simulated failure rates.
           </p>
         </div>
 
@@ -348,23 +348,6 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
           </div>
 
           <div className="flex flex-col justify-center space-y-3">
-            <label className="flex items-start gap-3 cursor-pointer">
-              <input
-                type="checkbox"
-                checked={settings.enableOtpChallenge}
-                onChange={(e) => updateField('enableOtpChallenge', e.target.checked)}
-                className="mt-0.5 w-4 h-4 rounded border-slate-300 text-[#0B3D91] focus:ring-[#0B3D91]"
-              />
-              <div>
-                <span className="text-xs font-semibold text-slate-900">
-                  Require Simulated 6-Digit OTP Verification (Step 4)
-                </span>
-                <p className="text-[11px] text-slate-500 mt-0.5">
-                  Displays an on-screen simulated SMS OTP to train copy/typing speed under pressure.
-                </p>
-              </div>
-            </label>
-
             <label className="flex items-start gap-3 cursor-pointer">
               <input
                 type="checkbox"

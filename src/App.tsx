@@ -1048,7 +1048,7 @@ export default function App() {
                   />
                 )}
 
-                {/* Step 4: CAPTCHA & OTP Verification */}
+                {/* Step 4: Final Review */}
                 {currentStep === 4 && selectedDateKey && selectedSlot && (
                   <Step4Verification
                     categoryId={selectedCategoryId}
@@ -1061,7 +1061,6 @@ export default function App() {
                       selectedSubOption,
                       ticketCount
                     )}
-                    enableOtpChallenge={settings.enableOtpChallenge}
                     isSubmitting={isSubmitting}
                     onBack={() => goToStep(3)}
                     onConfirmSubmit={handleConfirmSubmission}

@@ -516,7 +516,7 @@ export const Step3DevoteeDetails: React.FC<Step3DevoteeDetailsProps> = ({
           type="submit"
           className="inline-flex items-center gap-2 px-6 py-2.5 text-sm font-semibold text-white bg-[#E86A17] hover:bg-[#C8560D] rounded-lg transition-colors whitespace-nowrap shrink-0 cursor-pointer"
         >
-          Proceed to Verification
+          Proceed to Final Review
           <ArrowRight className="w-4 h-4" aria-hidden="true" />
         </button>
       </div>

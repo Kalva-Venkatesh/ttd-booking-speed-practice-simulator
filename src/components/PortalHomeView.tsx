@@ -93,7 +93,7 @@ export const PortalHomeView: React.FC<PortalHomeViewProps> = ({
               Master TTD Ticket Booking Speed Before Quota Opens
             </h1>
             <p className="mt-4 text-base text-blue-100 leading-relaxed max-w-xl">
-              Train on a realistic 5-step Darshan, Seva, and Accommodation booking flow with live depleting slot inventories, simulated CAPTCHA &amp; OTP verification, and millisecond-accurate timing.
+              Train on a realistic 5-step Darshan, Seva, and Accommodation booking flow with live depleting slot inventories and millisecond-accurate timing.
             </p>
 
             <div className="mt-7 flex flex-wrap items-center gap-3.5">

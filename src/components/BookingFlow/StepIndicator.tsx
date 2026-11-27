@@ -13,7 +13,7 @@ const STEPS: { num: BookingStep; label: string; shortLabel: string }[] = [
   { num: 1, label: 'Category & Date', shortLabel: 'Date' },
   { num: 2, label: 'Slot & Tickets', shortLabel: 'Slot' },
   { num: 3, label: 'Devotee Details', shortLabel: 'Devotees' },
-  { num: 4, label: 'Verification', shortLabel: 'Verify' },
+  { num: 4, label: 'Final Review', shortLabel: 'Review' },
   { num: 5, label: 'Confirmation', shortLabel: 'Confirm' },
 ];
 
